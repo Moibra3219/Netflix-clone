@@ -26,11 +26,12 @@ const App = () => {
        <ToastContainer theme='dark' />
 
       <Routes>
-        <Route path='/' element={<Home />} />
+      <Route path='/' element={<navigate to="/home" replace />} />
+        <Route path='/home' element={<Home />} />
         <Route path='/login' element={<Login />} />
         <Route path='/player/:id' element={<Player />}/>
       </Routes>
-      <Home />
+      
 
     </div>
   )
