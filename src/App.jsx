@@ -31,7 +31,11 @@ const App = () => {
         <Route path='/login' element={<Login />} />
         <Route path='/player/:id' element={<Player />}/>
       </Routes>
+<<<<<<< HEAD
       
+=======
+   
+>>>>>>> a546a35b6052d1069b2bc8b4cfed12dcee588139
 
     </div>
   )
